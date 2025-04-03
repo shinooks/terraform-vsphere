@@ -1,0 +1,14 @@
+variable vsphere_server {
+  type = string
+  default = "" # ESXi 서버라면 서버의 IP
+}
+
+variable vsphere_user{
+    type = string
+    default = "" # ESXi 서버라면 root
+}
+
+variable vsphere_password{
+    type = string
+    default = "" # ESXi root의 패스워드
+}
