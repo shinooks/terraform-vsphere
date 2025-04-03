@@ -1,0 +1,3 @@
+vsphere_server = "" # ESXi 서버라면 서버의 IP
+vsphere_user = "" # ESXi 서버라면 서버의 루트 계정
+vsphere_password= "" # ESXi 루트 계정의 패스워드
