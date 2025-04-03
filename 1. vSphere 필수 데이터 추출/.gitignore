@@ -9,8 +9,8 @@
 *.tfstate
 *.tfstate.*
 
-# variables files
-*/variables.tf
+# .tfvars 환경 설정 파일
+*/terraform.tfvars
 
 # Crash log files
 crash.log
