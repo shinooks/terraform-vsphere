@@ -2,6 +2,7 @@
 ## 참고 링크
 - vSphere 최신 버전: https://registry.terraform.io/providers/hashicorp/vsphere/latest
 - vsphere Docs 링크: https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs
+- [테라폼 활용 VMware 자동화 - (1)](https://tinted-tapir-06c.notion.site/VMware-1-1bb07373030f80e5b584f112b41a466c?pvs=74)
 ## 실행 방법
 1. `terraform.tfvars.sample`에서 .sample을 지우고 vSphere 서버 정보를 입력
 2. `terraform init` : 프로바이더 구성 -> 오류 시 vsphere provider 버전 확인
