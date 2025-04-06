@@ -9,6 +9,8 @@
 4. `terraform apply --auto-approve`
 ## 출력 결과
 * 만들어진 VM에 ubuntu/ubuntu로 로그인 가능
+  ![image](https://github.com/user-attachments/assets/b71b95be-5bc7-4a42-9d69-1ed588e146ea)
+
 
 ## 결과 분석
 - ESXi 서버는 OVF Property를 설정하더라도 데이터를 보관할 수 없어 가상머신 생성 시 OVF 런타임 환경에 주입할 수 없음
