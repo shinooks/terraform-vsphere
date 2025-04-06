@@ -1,6 +1,6 @@
 ## Deployment of VM from Remote OVF
 resource "vsphere_virtual_machine" "vmFromRemoteOvf" {
-  name                 = "wooks-vm2"
+  name                 = "wooks-vm3"
   datacenter_id        = data.vsphere_datacenter.dc.id
   datastore_id         = data.vsphere_datastore.ds.id
   host_system_id       = data.vsphere_host.host.id
@@ -16,7 +16,10 @@ resource "vsphere_virtual_machine" "vmFromRemoteOvf" {
 
   ovf_deploy {
     allow_unverified_ssl_cert = false
+    # CD-rom 방식 부팅 시 아래 경로 사용
     remote_ovf_url            = "http://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.ova"
+    # 원격 ova 리포지터리를 사용하려면 아래 경로 사용
+    # remote_ovf_url            = "https://swhwang-cloud-ova.s3.ap-northeast-2.amazonaws.com/ubuntu-noble-24.04-cloudimg-test.ova"
     disk_provisioning         = "thin"
     ip_protocol               = "IPV4"
     ip_allocation_policy      = "STATIC_MANUAL"
