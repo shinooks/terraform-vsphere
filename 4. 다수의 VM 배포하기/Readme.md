@@ -15,7 +15,21 @@
     * for_each를 사용한 VM 생성
       
       ![image](https://github.com/user-attachments/assets/e88f2f0a-fd3a-47ae-9d06-6b6f79b0849c)
+* Ouput 로그에서 생성된 리소스 출력
+  ```
+   Outputs:
 
+   vm_host_names = [
+     "map's key: instance1 map's value: web",
+     "map's key: instance2 map's value: was",
+     "map's key: instance3 map's value: db",
+   ]
+   vm_name = [
+     "wooks-instance1-web",
+     "wooks-instance2-was",
+     "wooks-instance3-db",
+   ]
+  ```
 ## 결과 분석
 - count를 이용할 경우 동일한 환경을 가진 다수의 VM을 빠르게 구성할 수 있었다. 
     VM 마다 복잡한 환경 설정이 요구되지 않고 동일한 환경을 구축한다면 count가 적절할 것으로 판단된다.
