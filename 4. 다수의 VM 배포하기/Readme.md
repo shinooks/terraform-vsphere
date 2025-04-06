@@ -9,6 +9,12 @@
 4. `terraform apply --auto-approve`
 ## 출력 결과
 * 서로 다른 이름을 가진 VM 생성
+    * count를 사용한 VM 생성
+      
+      ![image](https://github.com/user-attachments/assets/fe71d671-21ff-4cd3-ab40-33e58266f49f)
+    * for_each를 사용한 VM 생성
+      
+      ![image](https://github.com/user-attachments/assets/e88f2f0a-fd3a-47ae-9d06-6b6f79b0849c)
 
 ## 결과 분석
 - count를 이용할 경우 동일한 환경을 가진 다수의 VM을 빠르게 구성할 수 있었다. 
