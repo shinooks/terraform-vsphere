@@ -1,0 +1,3 @@
+vsphere_server = "" # vSphere 서버의 IP 또는 도메인인, ESXi 서버라면 서버의 IP
+vsphere_user = "" # vSphere 서버의 관리자 계정(기본 값: administrator@vsphere.local), ESXi 서버라면 서버의 루트 계정
+vsphere_password= "" # vSphere 서버의 관리자 패스워드, ESXi 루트 계정의 패스워드
